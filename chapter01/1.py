@@ -1,0 +1,17 @@
+cast = ["Cleese","Palin","Jones","Idle"]
+print(cast)
+print(len(cast))
+print(cast[1])
+cast.append("Gilliam")
+print(cast)
+print(len(cast))
+cast.pop()
+print(len(cast))
+cast.extend(["Gilliam","Chapman"])
+print(len(cast))
+print(cast)
+cast.remove("Chapman")
+print(cast)
+cast.insert(0, "Chapman")
+print(cast)
+
